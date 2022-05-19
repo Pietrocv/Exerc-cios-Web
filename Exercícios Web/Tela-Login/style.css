@@ -1,0 +1,76 @@
+/*Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS";
+}
+body{
+    text-align: center;
+    background-image: url("https://i.imgur.com/dZH9gh8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Container Login*/
+#login-container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+/*Registrar Login*/
+.registrar-container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+/*Formulário*/
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+/*Botão*/
+.btn-login{
+    text-align: center;
+     text-transform: uppercase;
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     border-radius: 20px;
+     margin-top: 40px;
+     background-color: blue;
+     cursor: pointer;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+     color: rgb(255, 254, 254);
+ }
+ input:focus{
+     border-bottom: 2px solid black;
+ }
+ #esqueceusenha{
+     display: block;
+ }
+

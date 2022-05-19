@@ -1,0 +1,38 @@
+/*Geral*/
+body {
+    font-family: 'Open Sans',sans-serif;
+    min-width: 320px;
+    margin-bottom: -10px;
+    background-image: url("https://i.imgur.com/dZH9gh8.jpeg");
+}
+/*Textos Superiores*/
+.text-header{
+    background-color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 5px solid #CCC;
+}
+/*Textos do Meio*/
+.text-entradas{
+    background: white;
+    padding: 20px 30px;
+    border: 5px solid #CCC;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*Textos do Fim*/
+.resultado{
+    background-color: white;
+    border: 5px solid #CCC;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

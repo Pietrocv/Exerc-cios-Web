@@ -1,0 +1,27 @@
+/*Geral*/
+body{
+    background-image: url("https://i.imgur.com/dZH9gh8.jpeg");
+    font-family: 'Open Sans',sans-serif;
+}
+/*Box-Principal*/
+.text-principal{
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+/*Botões*/
+.buttons-principal{
+    margin-top: 15px;
+}
+#btn-last{
+    margin-bottom: 15px;
+}
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:50%;    
+}
